@@ -61,7 +61,9 @@ docker --verion
 | Description | code |
 | ----------- | ---- |
 | To edit Nginx | ```cd /var/www/html``` |
-| Update later | ``` server {
+| Update later | 
+``` 
+server {
    listen 80;
 location / {
         proxy_set_header  X-Real-lP $remote_addr;
@@ -72,6 +74,7 @@ location / {
 }
 } 
 ```
+|
 
 
 
