@@ -46,7 +46,12 @@ docker --verion
 > clone your repo project 
 
 #### Build Docker Image
-``` docker image build -t [desired image name ] [Dockerfile Location]``` To build docker image
+| Description | Code |
+| ----------- | ---- |
+| To build docker image | ``` docker image build -t [desired image name ] [Dockerfile Location]``` |
+| --------------------- | ------------------------------------------------------------------------ |
+
+
 ``` docker run -d -p [port Id]:[port number] [image name]``` To run docker image
 ``` docker compose up -d ``` To build and run docker yaml file 
 ``` docker ps ``` To check current docker images running 
