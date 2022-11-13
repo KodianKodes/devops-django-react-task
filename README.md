@@ -30,20 +30,20 @@ It should look like this if successful
 ## Deploying To AWS Instance 
 > Create an AWS instance and run the following code 
 ```
-sudo apt-get update && \
-        sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
 ```
 Create a user
-```
-sudo adduser [user account name]
-sudo chmod -aG sudo [user account name ] to grant user a root privilage
-```
+
+`code` sudo adduser [user account name]
+`code`sudo chmod -aG sudo [user account name ] to grant user a root privilage
+
+> install nginx to your server 
+`code` sudo apt-get install nginx
+> install docker engine on your Ubuntu instance 
+[Docker](https://docs.docker.com/engine/install/ubuntu/)
+docker --verion
 > login to the user account 
 > clone your repo project 
-> 
-
-> To create a new user, Run the following command
 
 
 
-> Clone your project to your instance 
