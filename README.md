@@ -32,7 +32,7 @@ It should look like this if successful
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
-Create a user
+#### Create a user
 
 ``` sudo adduser [user account name] ```
 ```sudo chmod -aG sudo [user account name ] ```  to grant user a root privilage
@@ -44,7 +44,7 @@ Create a user
 docker --verion
 
 > login to the user account
- 
+
 > clone your repo project 
 
 #### Build Docker Image
@@ -57,7 +57,22 @@ docker --verion
 | To stop docker process | ``` docker stop [docker image ID] ```  |
 | To check both active and non active process | ``` docker ps -a ```|
 
-### Configure Nginx 
+#### Configure Nginx 
+| Description | code |
+| ----------- | ---- |
+| To edit Nginx | ```cd /var/www/html``` |
+| Update later | ``` server {
+   listen 80;
+location / {
+        proxy_set_header  X-Real-lP $remote_addr;
+        proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header  X-Forwarded-Proto $scheme;
+        proxy_set_header        Host $host;
+        proxy_pass http://0.0.0.0:3000;
+}
+} 
+```
+
 
 
 
