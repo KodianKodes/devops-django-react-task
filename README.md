@@ -34,16 +34,27 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 Create a user
 
-`code` sudo adduser [user account name] `code`
-`code`sudo chmod -aG sudo [user account name ]  `code` to grant user a root privilage
+``` sudo adduser [user account name] ```
+```sudo chmod -aG sudo [user account name ] ```  to grant user a root privilage
 
 > install nginx to your server 
-`code` sudo apt-get install nginx
+``` sudo apt-get install nginx ```
 > install docker engine on your Ubuntu instance 
 [Docker](https://docs.docker.com/engine/install/ubuntu/)
 docker --verion
 > login to the user account 
 > clone your repo project 
+
+#### Build Docker Image
+``` docker image build -t [desired image name ] [Dockerfile Location]``` To build docker image
+``` docker run -d -p [port Id]:[port number] [image name]``` To run docker image
+``` docker compose up -d ``` To build and run docker yaml file 
+``` docker ps ``` To check current docker images running 
+``` docker stop [docker image ID] ``` To stop docker process  
+``` docker ps -a ``` To check both active and non active process 
+
+### Configure Nginx 
+
 
 
 
