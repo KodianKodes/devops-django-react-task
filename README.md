@@ -28,3 +28,15 @@ It should look like this if successful
 <img width="1440" alt="Screen Shot 2022-11-02 at 19 30 22" src="https://user-images.githubusercontent.com/66765302/199572589-43bd05b7-95a6-455c-bc25-3cd437c95339.png">
 
 ## Deploying To AWS
+> Power any instance of your choice {AWS, GCP, AZURE}
+> Run the following command for linux user 
+<sup>```
+sudo apt-get update && \
+        sudo apt-get upgrade
+
+```<sup>
+> To create a new user, Run the following command
+
+
+
+> Clone your project to your instance 
