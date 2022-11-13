@@ -42,7 +42,9 @@ Create a user
 
 > install docker engine on your Ubuntu instance [Docker](https://docs.docker.com/engine/install/ubuntu/)
 docker --verion
-> login to the user account 
+
+> login to the user account
+ 
 > clone your repo project 
 
 #### Build Docker Image
