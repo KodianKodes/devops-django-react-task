@@ -49,14 +49,11 @@ docker --verion
 | Description | Code |
 | ----------- | ---- |
 | To build docker image | ``` docker image build -t [desired image name ] [Dockerfile Location]``` |
-| --------------------- | ------------------------------------------------------------------------ |
-
-
-``` docker run -d -p [port Id]:[port number] [image name]``` To run docker image
-``` docker compose up -d ``` To build and run docker yaml file 
-``` docker ps ``` To check current docker images running 
-``` docker stop [docker image ID] ``` To stop docker process  
-``` docker ps -a ``` To check both active and non active process 
+| To run docker image | ``` docker run -d -p [port Id]:[port number] [image name]```|
+| To build and run docker yaml file | ``` docker compose up -d ```|
+| To check current docker images running | ``` docker ps ``` |
+| To stop docker process | ``` docker stop [docker image ID] ```  |
+| To check both active and non active process | ``` docker ps -a ```|
 
 ### Configure Nginx 
 
