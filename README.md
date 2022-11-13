@@ -61,7 +61,8 @@ docker --verion
 | Description | code |
 | ----------- | ---- |
 | To edit Nginx | ```cd /var/www/html``` |
-| Update later | 
+---
+ sudo vi /etc/nginx/sites-available/default (To Edit)
 ``` 
 server {
    listen 80;
@@ -74,7 +75,7 @@ location / {
 }
 } 
 ```
-|
+---
 
 
 
