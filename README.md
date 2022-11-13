@@ -34,8 +34,8 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 Create a user
 
-`code` sudo adduser [user account name]
-`code`sudo chmod -aG sudo [user account name ] to grant user a root privilage
+`code` sudo adduser [user account name] `code`
+`code`sudo chmod -aG sudo [user account name ]  `code` to grant user a root privilage
 
 > install nginx to your server 
 `code` sudo apt-get install nginx
