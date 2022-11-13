@@ -39,8 +39,8 @@ Create a user
 
 > install nginx to your server 
 ``` sudo apt-get install nginx ```
-> install docker engine on your Ubuntu instance 
-[Docker](https://docs.docker.com/engine/install/ubuntu/)
+
+> install docker engine on your Ubuntu instance [Docker](https://docs.docker.com/engine/install/ubuntu/)
 docker --verion
 > login to the user account 
 > clone your repo project 
